@@ -1,0 +1,22 @@
+-- Bien laisser en format tkt 
+
+AzMenu.NewThread(function() 
+	si menu == AzuMenu alors 
+		JamesOpen()
+		Azmenu.Triguer("Tondre la pelouse", "Boire de la biere", heineken)
+		tant que JamesOpen alors 
+			imprimer("Bonjour !, je suis ouvert !!")
+			arreter
+			AzuMenu.CreateJamesLePetit()
+			
+			James.Attendre(10)
+
+			AzuMenu.CallBack(function(provenance, train) 
+				serveur = decoderJames(propsTondeuse)
+				AzuMenu.RevientVacances.init(serveur)
+				JamesContent(10)
+			end)
+			imprimer("AzuThak est vraiment un bon gars !")
+		end
+	end
+end)
